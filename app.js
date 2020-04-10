@@ -7,6 +7,7 @@ const species = require("./species.json")
 const starships = require("./starships.json")
 const transport = require("./transport.json")
 const vehicles = require("./vehicles.json")
+const port = process.env.PORT || 3000;
 
 const db = {
   films,
@@ -186,5 +187,5 @@ server.use(jsonServer.defaults())
 const router = jsonServer.router(relationDb)
 server.use(router)
 
-server.listen(3000)
-console.log(`Server started on port 3000`)
+server.listen(port)
+console.log(`Server started on port ${port}`)
