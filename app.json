@@ -1,7 +1,7 @@
 {
   "name": "Start on Heroku: swapi json server",
   "description": "Node JS Swapi JSON Server",
-  "repository": "https://github.com/tsukhu/swapi-json-server",\
+  "repository": "https://github.com/tsukhu/swapi-json-server",
   "keywords": ["node", "json-server", "heroku"],
   "image": "heroku/nodejs"
 }
