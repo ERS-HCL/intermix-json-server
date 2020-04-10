@@ -7,3 +7,15 @@ All credit to http://swapi.co and https://github.com/typicode/json-server
 - run `npm install` to install dependencies
 - run `npm start` to fire up dev server
 - open browser to [`http://localhost:4000`](http://localhost:4000)
+
+## Deploying to Heroku
+
+```bash
+heroku create
+git push heroku master
+heroku open
+```
+
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
